@@ -1,6 +1,5 @@
 #include "Menu.h"
 
-#include "Menu.h"
 
 // 0. Le menu de base (rien de sélectionné)
 const unsigned char menu_base [] PROGMEM = {
