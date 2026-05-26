@@ -20,7 +20,7 @@ void setup() {
 
   mainDisplay.begin(SSD1306_SWITCHCAPVCC, 0x3c);
   mainDisplay.clearDisplay();
-  monMenu.initPixel();
+  monMenu.yellowSquare();
 }
 
 void loop() {

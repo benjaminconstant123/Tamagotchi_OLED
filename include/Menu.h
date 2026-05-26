@@ -13,7 +13,7 @@ class Menu {
 
   public:
     Menu(Adafruit_SSD1306* displayPtr); // Constructor
-    void initPixel();
+    void yellowSquare();
 };
 
 #endif
