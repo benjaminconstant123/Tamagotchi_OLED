@@ -25,7 +25,7 @@ void setup() {
   mainDisplay.clearDisplay();
 
   monMenu.yellowSquare();
-  delay(1000);
+  delay(2000);
   monMenu.showMenu();
 }
 
@@ -39,5 +39,5 @@ void loop() {
     monMenu.draw();
     delay(200); // Debounce delay
   }
-  
+
 }

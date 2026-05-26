@@ -113,6 +113,9 @@ void Menu::yellowSquare() {
   display->setTextColor(SSD1306_BLACK);
   display->setCursor(4, 4);
   display->print("TAMAGOTCHI");
+  display->setTextColor(SSD1306_WHITE);
+  display->setCursor(15, 40);
+  display->print("Benjamin Constant");
   display->display();
 } 
 
