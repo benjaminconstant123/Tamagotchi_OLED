@@ -14,6 +14,9 @@ class Menu {
   public:
     Menu(Adafruit_SSD1306* displayPtr); // Constructor
     void yellowSquare();
+    void showMenu();
+    void setOption(int option);
+    void draw();
 };
 
 #endif
